@@ -1,49 +1,117 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stocker - Dracula Theme</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>My CV</title>
     <style>
         body {
-            background-color: #282a36;
-            color: #f8f8f2;
-            font-family: 'Montserrat', sans-serif;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
             text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            color: #ff79c6;
-            font-weight: 700;
-        }
-        p {
-            color: #f1fa8c;
-            font-weight: 400;
         }
         .container {
-            max-width: 600px;
-            margin: auto;
+            max-width: 800px;
+            background: white;
             padding: 20px;
             border-radius: 10px;
-            background-color: #44475a;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+            margin: auto;
         }
-        a {
-            color: #8be9fd;
-            text-decoration: none;
-            font-weight: 700;
+        h1, h2 {
+            color: #333;
         }
-        a:hover {
-            color: #50fa7b;
+        .profile {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .job {
+            text-align: left;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .company-logo {
+            width: 50px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .company {
+            display: flex;
+            align-items: center;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Bem-vindo ao meu site!</h1>
-        <p>Este site segue o tema Dracula e usa a fonte Montserrat.</p>
-        <p>Veja mais sobre o tema <a href="https://draculatheme.com/" target="_blank">Dracula Theme</a>.</p>
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQE0l2OcniqGMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718732855607?e=1747267200&v=beta&t=ppoysfOueLdgHx4bmACFlJ8QNEV2WfBYkhfGidP8O4I" alt="Profile Picture" class="profile">
+        <h1>My CV</h1>
+        
+        <div class="job">
+            <div class="company">
+                <img src="bigid_logo.png" alt="BigID Logo" class="company-logo">
+                <h2>Client Support Engineer</h2>
+            </div>
+            <p><strong>BigID · Full-time</strong></p>
+            <p>Mar 2022 - Present · 3 yrs 1 mo</p>
+            <p>New York, United States · Remote</p>
+            <p>Swiss army knife is the best description of my current role. Each support case is a different scenario, each customer has different needs and environments with different settings and deployment...</p>
+            <p><strong>Skills:</strong> Kubernetes, Linux, Docker, Grafana, Prometheus, Redis</p>
+        </div>
+
+        <div class="job">
+            <div class="company">
+                <img src="exxonmobil_logo.png" alt="ExxonMobil Logo" class="company-logo">
+                <h2>Mulesoft API Developer</h2>
+            </div>
+            <p><strong>ExxonMobil · Full-time</strong></p>
+            <p>Oct 2021 - Mar 2022 · 6 mos</p>
+            <p>Curitiba, Paraná, Brazil</p>
+            <p><strong>Skills:</strong> Analytical Skills, Problem Solving</p>
+        </div>
+
+        <div class="job">
+            <div class="company">
+                <img src="atlassian_logo.png" alt="Atlassian Logo" class="company-logo">
+                <h2>Premium Cloud Support Engineer</h2>
+            </div>
+            <p><strong>Atlassian · Full-time</strong></p>
+            <p>Aug 2020 - Oct 2021 · 1 yr 3 mos</p>
+            <p>São Paulo, Brazil</p>
+            <p>Cloud Enterprise Support to Jira and other Atlassian products around the globe...</p>
+            <p><strong>Skills:</strong> Analytical Skills, Problem Solving, Software Support</p>
+        </div>
+
+        <div class="job">
+            <div class="company">
+                <img src="gft_logo.png" alt="GFT Technologies Logo" class="company-logo">
+                <h2>Mulesoft Developer</h2>
+            </div>
+            <p><strong>GFT Group · Full-time</strong></p>
+            <p>Dec 2019 - Jul 2020 · 8 mos</p>
+            <p>Curitiba Area, Brazil</p>
+            <p>Mulesoft Solutions Developer. Technologies: Mulesoft, Elasticsearch, Jenkins, BitBucket, Oauth, AWS, SOA, Salesforce, Log4j2</p>
+            <p><strong>Skills:</strong> Analytical Skills, Problem Solving</p>
+        </div>
+
+        <div class="job">
+            <div class="company">
+                <img src="wipro_logo.png" alt="Wipro Logo" class="company-logo">
+                <h2>Senior Project Engineer</h2>
+            </div>
+            <p><strong>Wipro Limited · Full-time</strong></p>
+            <p>Oct 2019 - Nov 2019 · 2 mos</p>
+            <p>Curitiba Area, Brazil</p>
+            <p>Specialized L3 support to Mastercard commercial web application. Main technologies: Java, UNIX, Splunk and Oracle</p>
+            <p><strong>Skills:</strong> Analytical Skills, Problem Solving, Software Support</p>
+        </div>
+
+        <!-- Add remaining job experiences similarly -->
     </div>
 </body>
 </html>
